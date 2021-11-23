@@ -128,17 +128,18 @@ $(document).ready(function() {
             },'-=500');
         });  
     }
-    
-    $(sideNavOpen).on('click', function(e) {
-        e.preventDefault();
-        if (sideNavTl.began) {
-            sideNavTl.reverse()
-			sideNavTl.completed = false;
-        }
-        if (sideNavTl.paused) {
-            sideNavTl.play()
-        }
-    });
+	
+    sideNavTl.play()
+//     $(sideNavOpen).on('click', function(e) {
+//         e.preventDefault();
+//         if (sideNavTl.began) {
+//             sideNavTl.reverse()
+// 			sideNavTl.completed = false;
+//         }
+//         if (sideNavTl.paused) {
+//             sideNavTl.play()
+//         }
+//     });
 
     
     /*-----------------------------------------------------------------
